@@ -1,0 +1,42 @@
+body{
+    background-color: pink;
+}
+
+#counterLabel{
+    text-align: center;
+    display: block;
+    font-size: 10em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.botoes{
+    display: block;
+    text-align: center;
+}
+.btn{
+    padding: 20px 30px;
+    font-size: 2em;
+    border-radius: 10px;
+    background-color: rgb(21, 92, 92);
+    color: white;
+    transition: 0.25s;
+    box-shadow: 20px rgb(9, 9, 9);
+    
+}
+.btn:hover{
+    background-color: rgb(18, 37, 37);
+    transform: scale(110%);
+}
+#resetarBtn{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.container{
+    background-color: gray;
+    height: 400px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    border-radius: 15px;
+    
+}
